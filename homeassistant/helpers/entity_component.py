@@ -172,7 +172,6 @@ class EntityComponent:
     async def async_extract_from_service(self, service, expand_group=True):
         """Extract all known and available entities from a service call.
 
-        Will return all entities if no entities specified in call.
         Will return an empty list if entities specified but unknown.
 
         This method must be run in the event loop.
